@@ -36,7 +36,6 @@ public class Graph_view extends Frame implements ActionListener,WindowListener{
 		
 		rs = mysql.selectAll();
 		
-		
 		try {
 			while (rs.next()) {
 				//id = rs.getInt("id");
@@ -150,7 +149,7 @@ public class Graph_view extends Frame implements ActionListener,WindowListener{
 			graph.setBounds(5,5,755,555);
 			graph.setVisible(true);
 		}
-		
+	
 	}
 
 }
